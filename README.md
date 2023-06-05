@@ -29,3 +29,28 @@ https://create-react-app.dev/docs/getting-started
 `generate-react-cli`
 
 ## Step 5 - Setup routing
+
+https://create-react-app.dev/docs/adding-a-router/
+Let's install react-router and get some simple routing going on in our application
+1 Remove the content from the app.tsx file and setup routing to hello world and goodnight moon components
+
+## Step 6 - Create a homepage with some navigation
+
+(opinions ahead)
+Let's create a pages directory as a sybling of the components directory.
+I'm going to copy pasta everything and rename it.
+Let's give this the h1 of "home" and we'll add two anchor tags with hrefs to our pages
+
+## Step 7 UI libraries.
+
+Install material UI
+install material icons
+Let's KISS and use the defualt app bar for today.
+Copy the code snipit from the docs
+Let's clear out everything but the buttons and add labels to Swagger and Docs
+Now let's look at the componets api on how to use a button with a link
+Add the href to the button
+
+## Refactor and cleanup
+
+Now lets rename and move things around to be a cleaner project
