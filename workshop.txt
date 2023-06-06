@@ -19,4 +19,3 @@ As we conclude our coding session, we'll add an exciting touch to our applicatio
 With Material UI's powerful theming capabilities, we can customize our application's appearance to align with any design guidelines or branding requirements. This is an important skill in the real-world where brand consistency across applications is often a requirement.
 
 We hope this workshop has provided you with a strong introduction to React and the broader concepts of frontend development. The journey doesn't stop here, though. Use the resources we've provided and continue exploring. Experiment with new libraries, build your own projects, and keep learning.
-
