@@ -1,56 +1,63 @@
 # Intro-to-React-Workshop
 
-A hands-on workshop introducing the basics of building web applications using React and modern UI frameworks, geared towards equipping backend developers with frontend knowledge.
+This hands-on workshop introduces the fundamentals of building web applications using React and other modern UI frameworks. It's tailored to equip backend developers with the necessary frontend knowledge.
 
-## Step one - Install create react app with typescript
+## Getting Started
 
-https://create-react-app.dev/docs/getting-started
-`npx create-react-app my-app --template typescript`
+### Step One - Install Create React App with TypeScript
 
-## Step two - Start the project
+Start by setting up a new React project with TypeScript template. For that, use the following command: `npx create-react-app my-app --template typescript`
 
-- explain the package.json's script section and how it works
+Refer to the official [Create React App](https://create-react-app.dev/docs/getting-started) documentation for more information.
 
-## Step three - Create a new component - ("easy way")
+### Step Two - Start the Project
 
-- To start the "simple way"
-  1 duplicate the App.tsx file and rename it HelloWorld.tsx
-  2 delete all the content inside of it and rename the class to hello world and update the export
-  3 wrap "Hello World!" in a h1 tag and save your file
-  4 let's go into the app.tsx file and call our component
+Next, familiarize yourself with the `package.json` file, focusing on the `script` section which governs project operations.
 
-## Step 4 - Create a new component - (CLI)
+### Step Three - Create a New Component (The Easy Way)
 
-1 npx generate-react-cli component GoodnightMoon
-2 We have to configure & create a "generate-react-cli.json"
-3 Pick none of the defaults except TS
-4 now let's render this to the page
+To create a new React component:
 
-`generate-react-cli`
+1. Duplicate the `App.tsx` file and rename it to `HelloWorld.tsx`.
+2. Delete all the content inside and update the class name and the export to reflect the new `HelloWorld` name.
+3. Wrap "Hello World!" in an `h1` tag and save your file.
+4. Update `app.tsx` to call our new `HelloWorld` component.
 
-## Step 5 - Setup routing
+### Step Four - Create a New Component (Using CLI)
 
-https://create-react-app.dev/docs/adding-a-router/
-Let's install react-router and get some simple routing going on in our application
-1 Remove the content from the app.tsx file and setup routing to hello world and goodnight moon components
+We can also create new components using the CLI tool `generate-react-cli`. To do that:
 
-## Step 6 - Create a homepage with some navigation
+1. Run `npx generate-react-cli component GoodnightMoon`.
+2. You'll need to configure and create a `generate-react-cli.json` file.
+3. While setting up, choose none of the defaults except for TypeScript.
+4. Finally, render the newly created component.
 
-(opinions ahead)
-Let's create a pages directory as a sybling of the components directory.
-I'm going to copy pasta everything and rename it.
-Let's give this the h1 of "home" and we'll add two anchor tags with hrefs to our pages
+### Step Five - Set Up Routing
 
-## Step 7 UI libraries.
+To allow navigation between different components, we need to set up routing.
 
-Install material UI
-install material icons
-Let's KISS and use the defualt app bar for today.
-Copy the code snipit from the docs
-Let's clear out everything but the buttons and add labels to Swagger and Docs
-Now let's look at the componets api on how to use a button with a link
-Add the href to the button
+1. Follow this guide on [adding a router](https://create-react-app.dev/docs/adding-a-router/) to your React application.
+2. Clean the content of the `app.tsx` file and set up routing for `HelloWorld` and `GoodnightMoon` components.
 
-## Refactor and cleanup
+### Step Six - Create a Homepage with Navigation
 
-Now lets rename and move things around to be a cleaner project
+Let's create a main page with navigation to our existing components. Here, we introduce the `pages` directory, parallel to the `components` directory.
+
+1. Duplicate the existing files and rename them accordingly.
+2. Modify the `h1` tag to display "home" and add two anchor tags, each pointing to our components' pages.
+
+### Step Seven - Integrate UI Libraries
+
+To enhance the UI of our application, we'll integrate Material UI and its icons. We'll start by installing these libraries and using the default app bar component.
+
+1. Install Material UI and Material Icons.
+2. Extract the code snippet for the app bar from the official documentation.
+3. Remove all components from the bar except the buttons, and label them as "Swagger" and "Docs".
+4. Check the component API on how to use a button with a link and add the `href` to the button.
+
+## Refactor and Cleanup
+
+Finally, let's clean up the project for better organization and readability.
+
+- Move all your components into a single `components` directory.
+- Rename and reorganize files as necessary to reflect their purpose and content.
