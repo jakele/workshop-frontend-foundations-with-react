@@ -2,10 +2,10 @@ import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Docs from "./components/Docs/Docs";
 import Home from "./pages/Home/Home";
 import NavTop from "./components/NavTop/NavTop";
-import Swagger from "./components/Swagger";
+import PageOne from "./pages/PageOne/PageOne";
+import PageTwo from "./pages/PageTwo/PageTwo";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/swagger" element={<Swagger />}></Route>
-          <Route path="/docs" element={<Docs />}></Route>
+          <Route path="/page-one" element={<PageOne />}></Route>
+          <Route path="/page-two" element={<PageTwo />}></Route>
         </Routes>
       </BrowserRouter>
     </>

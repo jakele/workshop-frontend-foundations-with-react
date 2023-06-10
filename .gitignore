@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+completed-project/my-app/node_modules
+completed-project/my-app/.pnp
+completed-project/my-app/.pnp.js
+
+# testing
+completed-project/my-app/coverage
+
+# production
+completed-project/my-app/build
+
+# misc
+completed-project/my-app/.DS_Store
+completed-project/my-app/.env.local
+completed-project/my-app/.env.development.local
+completed-project/my-app/.env.test.local
+completed-project/my-app/.env.production.local
+
+completed-project/my-app/npm-debug.log*
+completed-project/my-app/yarn-debug.log*
+completed-project/my-app/yarn-error.log*
